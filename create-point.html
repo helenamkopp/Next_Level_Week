@@ -19,7 +19,7 @@
 
         <header>
             <img src="/extras-aula-1/icones/logo.svg" alt="Logomarca">
-            <a href="#">
+            <a href="index.html">
                 <span></span>
                 Voltar para home</a> 
         </header>
@@ -34,24 +34,24 @@
 
                 <div class="field">
                     <label for="">Nome da entidade</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required>
                 </div>
 
                 <div class="field-group">
                     <div class="field">
                         <label for="address">Endereço</label>
-                        <input type="text" name="address">
+                        <input type="text" name="address" required>
                     </div>
                     <div class="field">
                         <label for="adress">Número/Complemento</label>
-                        <input type="text" name="address">
+                        <input type="text" name="address" required>
 
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
                         <label for="state">Estado</label>
-                        <select name="uf">
+                        <select name="uf" required>
                             <option value="">Selecione o Estado</option>
                         </select>
 
@@ -60,7 +60,7 @@
                     </div>
                     <div class="field">
                         <label for="city">Cidade</label>
-                        <select name="city" disabled>
+                        <select name="city" disabled required>
                             <option value="">Selecione a Cidade</option>
                         </select>
                         
@@ -68,17 +68,57 @@
                 </div>
 
             </fieldset>
-
-
-
-
-
+            
             <fieldset>
                 <legend>
                     <h2>Itens de coleta</h2>
                 </legend>
+
+                <div class="items-grid">
+                    <li data-id="1">
+                        <img src="/extras-aula-1/icones/lampadas.svg" alt="Lampadas">
+                        <span>Lâmpadas</span>
+                    </li>
+
+                    <li data-id="2">
+                        <img src="/extras-aula-1/icones/baterias.svg" alt="Pilhas e Baterias">
+                        <span>Pilhas e Baterias</span>
+                    </li>
+
+                    <li data-id="3">
+                        <img src="/extras-aula-1/icones/papeis-papelao.svg" alt="Papeis e Papelao">
+                        <span>Papeis e Papelão</span>
+                    </li>
+
+                    <li data-id="4">
+                        <img src="/extras-aula-1/icones/eletronicos.svg" alt="Residuos Eletronicos">
+                        <span>Resíduos Eletrônicos</span>
+                    </li>
+
+                    <li data-id="5">
+                        <img src="/extras-aula-1/icones/organicos.svg" alt="Residuos Organicos">
+                        <span>Resíduos Orgânicos</span>
+                    </li>
+
+                    <li data-id="6">
+                        <img src="/extras-aula-1/icones/oleo.svg" alt="Oleo de Cozinha">
+                        <span>Óleo de Cozinha</span>
+                    </li>
+
+                </div>
+                
+                <input type="hidden" name="items">
+
             </fieldset>
 
+            
+            
+            
+            
+            
+            
+            
+            
             <button type="submit">Cadastrar ponto de coleta</button> <!--Significa que quando eu apertar nesse botão, ele vai fazer o submit/ enviar essa formulário-->
 
         </form>
