@@ -35,7 +35,7 @@ body::after {
 
 #page-search-results header a span {
     margin-right: 16px;
-    background-image: url('../extras-aula-1/icones/arrow-left.svg');
+    background-image: url('../icones/arrow-left.svg');
 
     display: flex;
 
