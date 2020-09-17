@@ -10,7 +10,7 @@ A aplicação foi desenvolvida em HTML, CSS e Javascript, onde fizemos seu backe
 - [Instalação](#Instalação)
 - [Uso](#Uso)
 - [Imagens](#Imagens)
-- [Erros](#Erros)
+
 
 
 ## Requisitos
