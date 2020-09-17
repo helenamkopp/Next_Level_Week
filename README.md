@@ -1,4 +1,4 @@
-#  Proffy 
+#  Ecoleta
 
 ## Descrição
 O Ecoleta foi desenvolvido juntamente com o pessoal da Rocketseat na primeira edição do evento Next Level Week. Ele é uma plataforma de coleta de resíduos, destinada a busca por pontos de reciclagem, onde usuários podem buscar por pontos de acordo com as cidades e as empresas podem realizar o cadastro do seu ponto com dados de endereço e quais materiais reciclam. 
